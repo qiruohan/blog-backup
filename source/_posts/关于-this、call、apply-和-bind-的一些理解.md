@@ -1,11 +1,16 @@
 ---
 title: 浅谈 this、call、apply 和 bind
 date: 2020-01-19 14:41:18
+<<<<<<< Updated upstream
 tags: [Javascript]
 categories: Javascript
+=======
+tags: [JavaScript]
+categories: 前端
+>>>>>>> Stashed changes
 ---
 
-![image](/uploads/i2_1.jpg)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i2_1.jpg)
 <!-- more -->
 
 ## 前言

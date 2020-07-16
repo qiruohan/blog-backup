@@ -6,7 +6,7 @@ tags:
 categories: 前端
 ---
 
-![image](/uploads/hexo.jpg)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/hexo.jpg)
 
 <!-- more -->
 
@@ -25,8 +25,8 @@ categories: 前端
 
 - 首先先登录到 [Github](https://github.com)。如果没有个人账号，先进行注册，注册完成后，点击登录进入 Github。
 - 点击绿色的 **New** 按钮新建一个仓库，将仓库名称命为： 用户名.github.io，例如：qiruohan.github.io，这个写法是固定的。
-![image](/uploads/i_1.jpg)
-![image](/uploads/i_2.jpg)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_1.jpg)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_2.jpg)
 
 - 注意：仓库名称要和你的用户名保持一致，后缀.github.io 的作用是 Github 识别到.github.io 后缀就会为你自动开启[Github Page](https://pages.github.com/)，作为你个人博客的仓库。
 
@@ -38,10 +38,10 @@ Node.js 是基于 [Chrome V8 JavaScript 引擎](https://v8.dev/) 构建的语言
 下载地址：[Node.js | Download](https://nodejs.org/en/download/)，下载当前操作系统的安装包，安装选项全部默认。注意下载的安装包中已经包含了环境变量以及 [npm](https://www.npmjs.com/)，所以安装完安装包后无需另外再下载 npm。
 
 检测 Node.js 是否安装成功，在命令行中输入：**node -v**
-![image](/uploads/i_3.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_3.png)
 
 检测 npm 是否安装成功，在命令行中输入：**npm -v**
-![image](/uploads/i_4.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_4.png)
 
 显示版本号，那么就说明 node.js 安装成功了。
 
@@ -50,7 +50,7 @@ Node.js 是基于 [Chrome V8 JavaScript 引擎](https://v8.dev/) 构建的语言
 [Git](https://git-scm.com/) 是一个开源的分布式版本控制系统，旨在快速高效地处理从小型到大型项目的所有内容。具有便捷的创建本地分支，创建暂存区域，处理多个工作流等功能。简单来说，使用 Git 可以把本地文件同步到 Github 上，完成多人多空间的便捷式管理。
 
 **Windows 下**安装下载地址：[Git | Downloads](https://git-scm.com/download/)，安装选项还是全部默认，安装完成后在命令行中输入 **git --version** 验证是否安装成功。
-![image](/uploads/i_5.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_5.png)
 显示版本号，那么就说明 git 安装成功了。安装成功后，将你的Git与GitHub帐号绑定，鼠标右击打开Git Bash，设置user.name和user.email配置信息。
 之后移步到 mac 下安装流程的**第三步：设置github的 username 和 email**，做接来下的操作。
 
@@ -84,12 +84,12 @@ ssh-keygen -t rsa -C "你的GitHub注册邮箱"
 然后找到生成的.ssh的文件夹中的id_rsa.pub密钥，将内容全部复制
 
 - 打开 [GitHub_Settings_keys](https://github.com/settings/keys) 页面，新建new SSH Key
-![image](/uploads/i_10.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_10.png)
 
 Title为标题，任意填即可，将刚刚复制的id_rsa.pub内容粘贴进去，最后点击Add SSH key。
 
 - 在终端检测GitHub公钥设置是否成功，输入 ssh git@github.com。
-![image](/uploads/i_11.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_11.png)
 
 如上则说明成功。
 
@@ -99,14 +99,14 @@ Title为标题，任意填即可，将刚刚复制的id_rsa.pub内容粘贴进�
 Hexo 就是我们搭建个人博客所使用的框架，我们需要在合适的地方先创建一个文件夹，用来存放自己的博客文件，例如我命名为blog2。
 
 使用命令行进入到该目录下，输入 `npm i hexo-cli -g` 安装 Hexo，安装成功后，会显示安装所使用的总时长。
-![image](/uploads/i_6.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_6.png)
 
 安装完成后，初始化我们的博客，输入 `hexo init blog`。
 注意：这里的命令都作用在刚刚创建的 blog2 文件夹下。
-![image](/uploads/i_7.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_7.png)
 
 初始化时间可能会比较长，耐心等待...
-![image](/uploads/i_8.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_8.png)
 
 初始化完成后，会发现 blog2 下又新增了一个文件夹，名为 blog，与 `hexo init` 后面输入的文件名同名。我们进入新创建的文件夹 blog 下，输入以下三条命名来检测一下我们的网站雏形
 
@@ -118,7 +118,7 @@ hexo g
 hexo s
 
 ```
-![image](/uploads/i_9.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_9.png)
 
 到这里，我们的个人博客就搭建完成啦！并且已经写出了我们的第一篇文章～
 
@@ -151,7 +151,7 @@ hexo s
 ### 推送博客站点
 
 上图只是本地的预览，如果想让大家都看到你的博客，就得把项目放在公网上被大家访问。打开博客根目录下的_config.yml文件，这是博客的配置文件，在这里你可以修改与博客相关的各种信息。这个文件称之为**站点配置文件**。
-![image](/uploads/i_12.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_12.png)
 
 修改最后一行的配置：
 ```
@@ -189,7 +189,7 @@ git clone https://github.com/theme-next/hexo-theme-next themes/next
 ```
 
 - 等待克隆完毕，找到 themes 文件夹下的 next 文件， 这就是我们刚刚克隆下来的主题了。
-![image](/uploads/i_13.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_13.png)
 
 - 返回根目录，找到我们的站点文件_config.yml，打开并修改里面的 theme 配置以使我们刚刚克隆下来的主题生效。
 
@@ -216,22 +216,22 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
 
 - 登录阿里云，进入管理控制台的域名列表，找到你的个性化域名，进入解析
 
-![image](/uploads/i_14.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_14.png)
 
 - 添加解析
 
-![image](/uploads/i_15.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_15.png)
 
 一共包括两条解析记录，记录类型都是CNAME，CNAME的记录值是：你的用户名.github.io，这里千万别弄错了。
 
 - 登录GitHub，进入之前创建的仓库，点击settings，设置Custom domain，输入你的域名，点击保存。
-![image](/uploads/i_16.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_16.png)
 
 注意：如果你把 Enforce HTTPS 钩上，github 会自动帮你升级为 https 的哦～
 
 - 这时候你的项目根目录应该会出现一个名为CNAME的文件了。如果没有的话，打开你本地博客/source目录，手动创建一个CNAME文件，注意没有后缀。写上你的域名。
 注意，只要写进你自己的域名即可。如果带有www，那么以后访问的时候必须带有www完整的域名才可以访问，但如果不带有www，以后访问的时候带不带www都可以访问。所以建议，不要带有www。
-![image](/uploads/i_17.png)
+![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i_17.png)
 
 - 点击保存。保存成功后运行hexo g、hexo d传到github上。这时候打开浏览器在地址栏输入你的个性化域名将会直接进入你自己搭建的网站。
 

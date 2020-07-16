@@ -15,7 +15,7 @@ comments: true
 
 下面是我的公众号，不定时更新，欢迎来玩～
 
-<img src="/uploads/qrcode.jpg" />
+<img src="https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/1.jpg" />
 
 
 
