@@ -1,15 +1,11 @@
 ---
-title: Webpack 究竟解决了什么问题？
+title: (未完成)Webpack 究竟解决了什么问题？
 date: 2020-06-01 15:30:59
 tags: [Webpack]
 categories: 前端
 ---
 
-<<<<<<< Updated upstream
-![image](/uploads/i4_1.jpg)
-=======
 ![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/i4_1.jpg)
->>>>>>> Stashed changes
 <!-- more -->
 
 ## 前言

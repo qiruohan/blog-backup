@@ -6,7 +6,7 @@ categories: 前端
 ---
 
 
-![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/375274245.jpg)
+<img src="https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/375274245.jpg" width="800" height="100%">
 <!-- more -->
 
 关于手写 Promise，想必大家都十分熟悉。基本上现在不管是大厂还是小厂，手写 promise 已经成为了面试必考知识点。听说你还不太会？那么走着，带你从零开始解锁 Promise！
@@ -381,8 +381,6 @@ const resolvePromise = (promise2, x, resolve, reject) => {
         });
       } else {
         // 如果 x.then 是个普通值就直接返回 resolve 作为结果  Promise/A+ 2.3.3.4
-        if (called) return;
-        called = true;
         resolve(x);
       }
     } catch (e) {
