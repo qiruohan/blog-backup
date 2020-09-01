@@ -1,8 +1,9 @@
 ---
 title: 面试官：“你能手写一个 Promise 吗”（完美符合Promise/A+规范）
 date: 2020-06-28 13:08:11
-tags: [Promise]
-categories: 前端
+tags: 
+  - Promise
+categories: Promise
 ---
 
 

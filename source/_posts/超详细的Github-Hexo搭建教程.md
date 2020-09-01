@@ -3,7 +3,7 @@ title: 超详细的Github+Hexo搭建教程
 date: 2019-10-31 20:45:02
 tags: 
    - Hexo
-categories: 前端
+categories: Hexo
 ---
 
 ![image](https://cdn.jsdelivr.net/gh/qiruohan/qiruohan.github.io/uploads/hexo.jpg)
